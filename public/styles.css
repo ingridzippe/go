@@ -1,0 +1,33 @@
+
+@font-face {
+	font-family: "Stoney";
+	src: url("fonts/PLANK___.TTF");
+}
+@font-face {
+	font-family: "Digital";
+	src: url("fonts/digital-7.ttf");
+}
+@font-face {
+	font-family: "Akzidenz";
+	src: url("fonts/akzidenzgroteskbe-mdex.otf");
+}
+@font-face {
+	font-family: "Akzidenz-Italic";
+	src: url("fonts/AkzidenzGroteskBEExBoldItalic.otf");
+}
+@font-face {
+	font-family: "Akzidenz-Italic-2";
+	src: url("fonts/AkzidenzGroteskBoldExtendedItalic.otf");
+}
+@font-face {
+	font-family: "Eurostile";
+	src: url("fonts/EurostileExtendedBlack.ttf");
+}
+@font-face {
+	font-family: "EurostileBold";
+	src: url("fonts/EurostileBoldExtended.otf");
+}
+@font-face {
+	font-family: "Compacta";
+	src: url("fonts/Compacta.otf");
+}

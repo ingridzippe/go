@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>	
+    <div>Create a Presave</div>
+
+	<form action="/generatepresave">
+
+		<br></br>
+		<div>Title</div> 
+		<input type="text" name="title" value="Ariana Grande - Sweetener">
+	  
+		<br></br>
+		<div>Description</div>
+		<textarea rows="4" cols="50" name="description" value=""></textarea>
+
+		<br></br>
+		<div>Artwork</div>
+
+		<br></br>
+		<div>Copy</div>
+		<textarea rows="4" cols="50" name="copy" value=""></textarea>
+
+		<br></br>
+		<div>Spotify Artist ID</div>
+		<input type="text" name="spotifyartistid" value="">
+	
+		<br></br>
+		<div>Spotify URI</div>
+		<div>Album | Track</div>
+		<div>The number</div>
+		<input type="text" name="spotifyuri" value="">
+
+		<br></br>
+		<div>Apple Music Actions</div>
+		<div>Album | Track</div>
+		<div>The number</div>
+		<input type="text" name="appleid" value="">
+	
+		<br></br>
+		<div>Email List Opt-ins</div>
+
+	  	<input type="submit" value="Generate Presave">
+	</form> 
+
+
+
+
+  	<script>
+		// release date
+		var x = setInterval(function() {
+	    	// today's date and time 
+		}, 1000);
+
+		$("#buy").click(function() {
+  			// $(".dropdown-content").css("display", "block");
+  			$("#buy-content").toggle();
+  			$(".dropbtn").css("background-color", "#3e8e41");
+		});
+		$("#stream").click(function() {
+  			// $(".dropdown-content").css("display", "block");
+  			$("#stream-content").toggle();
+  			$(".dropbtn").css("background-color", "#3e8e41");
+		});
+
+
+
+		// document.getElementById("p2").style.color = "blue";
+	</script>
+
+</body>
